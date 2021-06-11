@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+*
+
+
+
+
+
+body{
+    margin:0 ;
+}
+
+.redes-sociales{
+    background-color:#20498A;
+    height: 60px;
+    color:  #20498A;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+.contenedor-redes a{
+    color: rgb(255, 255, 255);
+    margin-right: 3px;
+    
+}
+
+nav{
+    height: 80px;
+    background-color: #3D6FAD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+nav .logotipo-header img{
+    height: 110px;
+    
+}
+nav .menu-navegaciones ul{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.menu-navegaciones a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+ nav .menu-navegaciones ul li{
+     margin-right: 30px;
+ }
+ .main-section{
+     border: 5px solid  #88AEDB;
+     height:100vh;
+     background-image:url(LUNA.jpg) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 1100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+ .main-contenedor button{
+     background-color: #D1D1D1;
+     width: 150px;
+     height: 45px;
+     border-radius: 7px;
+     font-size: 15px;
+     margin-left: 400px;
+     margin-top: 100px;
+     
+     
+ }
+
+ .footer{
+     height: 60px;
+     background-color:#4A88C5 ;
+     display: flex;
+     align-items: center;
+     justify-content:center ;
+ }
+
+ .main-contenedor h1{
+     font-size: 80px;
+     font-family: 'Abhaya Libre', serif;
+ }
+ .main-contenedor p{
+     font-size: 25px;
+     font-family:'Mina', sans-serif;
+ }
+
+
+  

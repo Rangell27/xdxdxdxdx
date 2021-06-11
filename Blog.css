@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size:16px;
+    line-height: 1.4em;
+    color: #222;
+    background: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.section{
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+.col{
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+.col: first-child{
+    margin-left: 0;
+}
+
+.span_3_of_3{
+    width: 100%;
+}
+
+.span_2_of_3{
+    width: 66%;
+}
+.span_1_of_3{
+    width: 32%;
+}
+
+header{
+    max-width: 100%;
+    background: #93C4D1;
+    padding: 28px;
+}
+nav{
+    width: 100%;
+    margin-bottom: 1em;
+    background:#5F97AA;
+}
+
+.logo{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+.nav-item:hover {
+    background: #3E88A5;
+    cursor: pointer;    
+}
+
+
+
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.blog-post{
+    background: white;
+    margin: 0 auto 2em auto;
+    padding: 35px 30px;
+}
+.side-post{
+    background: white;
+    margin: 0 auto 1.5em auto;
+    width: 15em;
+    padding: 20px;
+}
+.blog-content{
+    font-size: 1em;
+    border-left: 5px solid #93C4D1;
+    padding-left: 15px;
+}
+.side-content{
+    font-size: .9em;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.blog-tittle{
+    font-weight: 500px;
+    font-size: 2.5em;
+    margin-top: 5px;
+}
+.date{
+    font-size: 1em;
+    font-weight: 400;
+    color: #9c9c9c;
+    margin-top: -10px;
+    text-decoration: underline;
+    text-decoration-color:currentColor ;
+}
+
+
+.post-link{
+    color: #0841a8;
+    font-style: italic;
+}
+
+.post-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button{
+    display: block;
+    padding: 15px 20px;
+    margin-top: .8em;
+    background: #009acd;
+    text-align: center;
+    color: white;
+    font-size:1.4em ;
+    border-radius: 3px;
+}
+.button:hover{
+    background: darkslateblue;
+}
+
+footer{
+    width: 100%;
+    float: right;
+    background: #141414;
+    color: white;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+footer h1{
+    margin: 20px auto;
+}
+footer p{
+    margin: auto;
+}
+
+
+
+
+
+

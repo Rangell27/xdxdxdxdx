@@ -1,0 +1,135 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.redes-sociales{
+    background-color:#DDA6B9;
+    height: 60px;
+    color: rgb(80, 226, 43);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+.contenedor-redes a{
+    color: rgb(255, 255, 255);
+    margin-right: 3px;
+    
+}
+nav{
+    height: 80px;
+    background-color: #ACAEC5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+nav .logotipo-header img{
+    height: 110px;
+    
+}
+nav .menu-navegaciones ul{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.menu-navegaciones a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav .menu-navegaciones ul li{
+    margin-right: 30px;
+}
+.menu-navegaciones li a:hover{
+    background:#F08D7E ;
+}
+#contenido h1{
+ text-align: center;
+ font-family: 'Noto Sans', sans-serif;
+ font-size: 40px;
+}
+#contenido li{
+    margin-bottom: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+}
+.img-izq{
+    float: left;
+    
+    width: 350px;
+    margin-left: 40px;
+    border: 3px;
+    border-color:#DDA6B9 ;
+    padding: 5px;
+}
+.opcion1{
+     background-color: #a4bdeb;
+     border-radius: 7px;
+     text-decoration: none;
+     color: #000000;
+     list-style: none;
+     margin-top:10px ;
+     margin-left: 600px;
+    
+}
+
+   
+.extra-info{
+    
+    margin-top: 230px;
+    background-color:#fff ;
+    
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2) ;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4{
+    font-weight:600 ;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #ACAEC5;
+}
+
+
